@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "llama3-2-runpod-worker"
+version = "0.1.0"
+description = ""
+authors = ["Evelyne Go <me@evelyne.xyz>"]
+readme = "README.md"
+packages = [{include = "llama3"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+runpod = "^1.7.4"
+ollama = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
