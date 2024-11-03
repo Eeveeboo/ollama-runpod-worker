@@ -17,9 +17,11 @@ curl -X POST https://api.runpod.ai/v2/{endpoint_id}/runsync \
 | Tag                                               | Supported Models        |
 |---------------------------------------------------|-------------------------|
 | eeveeb00/runpod-ollama-chat:llama3.2              | llama3.2                |
-| eeveeb00/runpod-ollama-chat:llama3.2_1b           | llama3.2:1b             |
 | eeveeb00/runpod-ollama-chat:llama3.2_llavaphi3    | llama3.2, llava-phi3    |
+| eeveeb00/runpod-ollama-chat:llama3.2_moondream    | llama3.2, moondream     |
+| eeveeb00/runpod-ollama-chat:llama3.2_1b           | llama3.2:1b             |
 | eeveeb00/runpod-ollama-chat:llama3.2_1b_llavaphi3 | llama3.2:1b, llava-phi3 |
+| eeveeb00/runpod-ollama-chat:llama3.2_1b_moondream | llama3.2:1b, moondream  |
 
 ### `format` is an optional string and can be "json" or ""
 
