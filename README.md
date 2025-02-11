@@ -16,6 +16,8 @@ curl -X POST https://api.runpod.ai/v2/{endpoint_id}/runsync \
 
 | Tag                                               | Supported Models        |
 |---------------------------------------------------|-------------------------|
+| eeveeb00/runpod-ollama-chat:deepseek-r1           | deepseek-r1             |
+| eeveeb00/runpod-ollama-chat:deepseek-r1_1.5b      | deepseek-r1:1.5b        |
 | eeveeb00/runpod-ollama-chat:llama3.2              | llama3.2                |
 | eeveeb00/runpod-ollama-chat:llama3.2_llavaphi3    | llama3.2, llava-phi3    |
 | eeveeb00/runpod-ollama-chat:llama3.2_moondream    | llama3.2, moondream     |
